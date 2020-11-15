@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e5bb926-2d61-42e8-8998-e4f2be301e73" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jyYLFlAS1aN4q1yd3sO7u45yHa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="confusionmatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\SCRAPING\one_page\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/confusionmatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\SCRAPING\one_page\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/algorithms/kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\SCRAPING\one_page\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\SCRAPING\one_page\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/algorithms/oner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zeror" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\SCRAPING\one_page\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/algorithms/zeror.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.kmeans" />
+        <item itemvalue="Python.oner" />
+        <item itemvalue="Python.zeror" />
+        <item itemvalue="Python.confusionmatrix" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e5bb926-2d61-42e8-8998-e4f2be301e73" name="Default Changelist" comment="" />
+      <created>1604777742351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604777742351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="31" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604899140907">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state x="31" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1152.680@0.0.1152.680" timestamp="1604899140907" />
+    <state x="419" y="231" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1604805053219">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state x="419" y="231" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1152.680@0.0.1152.680" timestamp="1604805053219" />
+    <state width="1150" height="440" key="DebuggerActiveHint" timestamp="1604953492183">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1150" height="440" key="DebuggerActiveHint/0.0.1152.680@0.0.1152.680" timestamp="1604953492183" />
+    <state x="296" y="96" width="454" height="488" key="EnvironmentVariablesDialog" timestamp="1604777969631">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state x="296" y="96" width="454" height="488" key="EnvironmentVariablesDialog/0.0.1152.680@0.0.1152.680" timestamp="1604777969631" />
+    <state x="357" y="95" key="FileChooserDialogImpl" timestamp="1605403618758">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state x="357" y="95" key="FileChooserDialogImpl/0.0.1152.680@0.0.1152.680" timestamp="1605403618758" />
+    <state width="1131" height="213" key="GridCell.Tab.0.bottom" timestamp="1605403206301">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="213" key="GridCell.Tab.0.bottom/0.0.1152.680@0.0.1152.680" timestamp="1605403206301" />
+    <state width="1131" height="213" key="GridCell.Tab.0.center" timestamp="1605403206301">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="213" key="GridCell.Tab.0.center/0.0.1152.680@0.0.1152.680" timestamp="1605403206301" />
+    <state width="1131" height="213" key="GridCell.Tab.0.left" timestamp="1605403206301">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="213" key="GridCell.Tab.0.left/0.0.1152.680@0.0.1152.680" timestamp="1605403206301" />
+    <state width="1131" height="213" key="GridCell.Tab.0.right" timestamp="1605403206301">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="213" key="GridCell.Tab.0.right/0.0.1152.680@0.0.1152.680" timestamp="1605403206301" />
+    <state width="1131" height="249" key="GridCell.Tab.1.bottom" timestamp="1605387318778">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="249" key="GridCell.Tab.1.bottom/0.0.1152.680@0.0.1152.680" timestamp="1605387318778" />
+    <state width="1131" height="249" key="GridCell.Tab.1.center" timestamp="1605387318778">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="249" key="GridCell.Tab.1.center/0.0.1152.680@0.0.1152.680" timestamp="1605387318778" />
+    <state width="1131" height="249" key="GridCell.Tab.1.left" timestamp="1605387318778">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="249" key="GridCell.Tab.1.left/0.0.1152.680@0.0.1152.680" timestamp="1605387318778" />
+    <state width="1131" height="249" key="GridCell.Tab.1.right" timestamp="1605387318778">
+      <screen x="0" y="0" width="1152" height="680" />
+    </state>
+    <state width="1131" height="249" key="GridCell.Tab.1.right/0.0.1152.680@0.0.1152.680" timestamp="1605387318778" />
+  </component>
+</project>
