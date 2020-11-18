@@ -12,7 +12,7 @@ data = [
 
 table = Table(data, header, 5) # Crea una tabla, el 3 parámetro indica el indice de la clase
 
-means = KMeans(table, 1, 14, 20, 20) # (min_k, max_k, i, r)
+means = KMeans(table, 2, 3, 20, 20) # (min_k, max_k, i, r)
 means.run()
 print("Error: " + str(means.error))
 print("Asignación de los clusters " + str(means.clusters)) # Esta es la columna que le interesa al maestro

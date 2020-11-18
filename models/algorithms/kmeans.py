@@ -43,6 +43,7 @@ class KMeans(Algorithm):
         self.__unsupervised = unsupervised
         self.__error = None
         self.__clusters = list()
+        self.__aux_centroids = list()
         self.__centroids = list()
         self.__set_k()
 
@@ -154,9 +155,9 @@ class KMeans(Algorithm):
             self.__k = self.__min_k
         else:
             self.__k += 1
-        self.__centroids = list()
+        self.__aux_centroids = list()
         for i in range(self.__k):
-            self.__centroids.append(choice(self.table.data).copy())
+            self.__aux_centroids.append(choice(self.table.data).copy())
 
     def __re_run(self) -> None:
         """This is a re-run, it has self.__re_runs."""
@@ -181,6 +182,7 @@ class KMeans(Algorithm):
         if self.__error == None or aux_error < self.__error:
             self.__error = aux_error
             self.__clusters = aux_select_clusters
+            self.__centroids = self.__aux_centroids
 
     def __iteration_run(self) -> tuple:
         """This is one iteration of the algorithm run."""
@@ -197,7 +199,7 @@ class KMeans(Algorithm):
         columns = data[0].__len__()
         target = self.table.target
         means = list()
-        for i in range(self.__centroids.__len__()):
+        for i in range(self.__aux_centroids.__len__()):
             means.append([0] * columns)
 
         for j in range(columns): # Calculates the sum
@@ -211,18 +213,18 @@ class KMeans(Algorithm):
                 if not(j == target and self.__unsupervised) and count != 0:
                     means[i][j] /= count
 
-        self.__centroids = means
+        self.__aux_centroids = means
 
     def __select_cluster(self, record: list, clusters: list) -> None:
         """Receives a record and selects the closest cluster."""
         cluster = 0
         min = None
         target = self.table.target
-        for i in range(self.__centroids.__len__()):
+        for i in range(self.__aux_centroids.__len__()):
             accum = 0
             for j in range(record.__len__()):
                 if not(j == target and self.__unsupervised):
-                    accum += (record[j] - self.__centroids[i][j]) ** 2
+                    accum += (record[j] - self.__aux_centroids[i][j]) ** 2
 
             if min == None or accum < min:
                 min = accum
@@ -238,9 +240,11 @@ class KMeans(Algorithm):
         target = self.table.target
 
         for i in range(data.__len__()):
+            aux_error = 0
             for j in range(len):
                 if not (j == target and self.__unsupervised):
-                    error += (data[i][j] - self.__centroids[clusters[i]][j]) ** 2
+                    aux_error += (data[i][j] - self.__aux_centroids[clusters[i]][j]) ** 2
+            error += sqrt(aux_error)
         return error
 
     # _____________________________Private methods_____________________________
@@ -283,7 +287,7 @@ if __name__ == "__main__":
         >>> print(means.clusters)
         []
         >>> print(means.centroids.__len__())
-        2
+        0
 
         >>> means.unsupervised = True
         >>> means.min_k = 3
@@ -308,8 +312,6 @@ if __name__ == "__main__":
         >>> means.run()
         >>> print(means.clusters.__len__())
         14
-        >>> print(means.centroids.__len__())
-        3
         """
     import doctest
     doctest.testmod()
